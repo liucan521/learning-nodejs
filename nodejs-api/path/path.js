@@ -9,8 +9,8 @@ console.log(basename1); // path.js
 console.log(basename2); // path
 console.log(basename3); // path
 
-// path.extname(path) 方法返回 path 的扩展名
 
+// path.extname(path) 方法返回 path 的扩展名
 let extname1 = path.extname('/Users/bob/documents/myproject/nodejs/nodejs-api/path/path.js');
 console.log(extname1); // .js
 /**
@@ -28,6 +28,7 @@ console.log(extname1); // .js
 
  path.extname('.index');
  */
+
 
 // 返回一个路径字符串：path.format(pathObject)
 let format1 = path.format({
@@ -54,14 +55,14 @@ let format3 = path.format({
 // 如果提供了 pathObject.base 存在，则 pathObject.ext 和 pathObject.name 会被忽略
 console.log(format3); // /home/nodejs/path_base.js/ignored
 
-// path.join() 方法使用平台特定的分隔符把全部给定的 path 片段连接到一起，并规范化生成的路径
 
+// path.join() 方法使用平台特定的分隔符把全部给定的 path 片段连接到一起，并规范化生成的路径
 let pathJoin1 = path.join('/home', 'nodejs', 'path', 'path.js', '.');
 
 console.log(pathJoin1); // /home/nodejs/path/path.js
 
-// path.parse(path)方法返回path的所有元素：
 
+// path.parse(path)方法返回path的所有元素：
 // 拆分路径
 let pathParse = path.parse(pathJoin1);
 console.log(pathParse);
@@ -76,15 +77,14 @@ console.log(pathParse);
 
 
 // path.resolve() 方法会把一个路径或路径片段的序列解析为一个绝对路径
-
 let resolvePath1 = path.resolve(__dirname); // __dirname 文件夹名字
 let resolvePath2 = path.resolve(__filename); // __filename 文件名字
 
 console.log(resolvePath1);  // Users/bob/Documents/myproject/nodejs/nodejs-api/path
 console.log(resolvePath2);  // /Users/bob/Documents/myproject/nodejs/nodejs-api/path/path.js
 
-// path.sep 方法返回平台特定的路径片段分隔符
 
+// path.sep 方法返回平台特定的路径片段分隔符
 console.log(path.sep);
 // Windows 上是 \
 // POSIX 上是 /
