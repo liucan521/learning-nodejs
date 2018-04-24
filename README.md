@@ -6,6 +6,7 @@
 
 一、Nodejs核心API
  - [fs(文件系统)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/fs)
+ - [path(路径)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/path)
  
 二、Nodejs编程基础
 
