@@ -5,6 +5,7 @@
 #### 学习路线分为：
 
 一、Nodejs核心API
+ - [Buffer(缓冲)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/buffer)
  - [fs(文件系统)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/fs)
  - [path(路径)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/path)
  
