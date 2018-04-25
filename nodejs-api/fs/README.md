@@ -18,7 +18,14 @@ const fs = require('fs');
 ```
 
 #### 创建一个文件：fs.appendFile(fileName, fileContent, callback)
+
 ```js
+/**
+ * 创建一个文件
+ * 第一个参数是新增的文件名字
+ * 第二个参数可以传新增文件的内容
+ * 第三个是回调函数，创建是否成功
+ */
 fs.appendFile('create.txt', 'i am a create flie', err => {
     if (err) {
         throw err;
@@ -32,6 +39,12 @@ fs.appendFile('create.txt', 'i am a create flie', err => {
 - options如果 options 是一个字符串，则它指定了字符编码
 
 ```js
+/**
+ * 读取一个文件的全部内容
+ * 第一个参数是要读取的文件路径
+ * 第二个指定返回的格式，通常utf8
+ * 第三个回调函数，返回err，和data参数，data就是返回读取到的内容
+ */
 fs.readFile('./test.txt', 'utf8', (err, data) => {
     if (err) {
         throw err;
@@ -43,6 +56,11 @@ fs.readFile('./test.txt', 'utf8', (err, data) => {
 #### 删除一个文件：fs.unlink(path, callback)
 
 ```js
+/**
+ * 删除文件
+ * 第一个参数是要读取的文件路径
+ * 第二个回调函数，如果删除失败返回err
+ */
 fs.unlink('./create.txt', (err) => {
     if (err) {
         throw err;
@@ -56,11 +74,18 @@ fs.unlink('./create.txt', (err) => {
 - options如果 options 是一个字符串，则它指定了字符编码
 
 ```js
+/**
+ * 读取文件的路径
+ * 第一个参数是要读取的文件路径
+ * 第二个指定返回的格式，通常utf8
+ * 第三个回调函数，返回err，和data参数，data就是返回读取到的内容
+ * 可以使用 process.cwd 解析相对路径。
+ */
 fs.realpath('./test.txt', 'utf8', (err, data) => {
     if (err) {
         throw err;
     }
-    console.log('test.txt的相对路径为: ' + data);
+    console.log('test.txt的路径为: ' + data);
     // test.txt的路径为: /Users/bob/Documents/myproject/nodejs/nodejs-api/test.txt
 });
 
@@ -70,6 +95,12 @@ fs.realpath('./test.txt', 'utf8', (err, data) => {
 - dest：异步的将 src 拷贝到 dest
 
 ```js
+/**
+ * 拷贝一个文件
+ * 第一个参数是要拷贝的文件
+ * 第二个参数是指要被拷贝出的文件名字
+ * 第三个回调函数，如果失败则返回err
+ */
 fs.copyFile('test.txt', 'copy_test.txt', (err) => {
     if (err) {
         throw err;
@@ -81,6 +112,11 @@ fs.copyFile('test.txt', 'copy_test.txt', (err) => {
 #### 创建一个文件夹：fs.mkdir(path, callback)
 
 ```js
+/**
+ * 创建一个文件夹
+ * 第一个参数是要被创建的文件夹名字
+ * 第二个回调函数，如果失败则返回err
+ */
 fs.mkdir('create_dircetory', err => {
     if (err) {
         throw err;
@@ -92,6 +128,11 @@ fs.mkdir('create_dircetory', err => {
 #### 删除一个文件夹：fs.rmdir(path, callback)
 
 ```js
+/**
+ * 删除一个文件夹
+ * 第一个参数是要被删除的文件夹名字
+ * 第二个回调函数，如果失败则返回err
+ */
 fs.rmdir('create_dircetory', err => {
     if (err) {
         throw err;
@@ -103,11 +144,18 @@ fs.rmdir('create_dircetory', err => {
 #### 查看文件夹下的内容：fs.readdir(path, callback)
 
 ```js
-fs.readdir('../nodejs-api', (err, data) => {
+/**
+ * 查看文件夹下的内容
+ * 第一个参数是要查看的文件夹路径
+ * 第二个回调函数，如果失败则返回err，成功返回data数据
+ */
+fs.readdir('../path', (err, data) => {
     if (err) {
         throw err;
     }
     console.log(data);
-    // [ 'copy_test.txt', 'create_dircetory', 'fs.js', 'test.txt' ]
+    // [ 'README.md', 'path.js' ]
 })
+
+
 ```
