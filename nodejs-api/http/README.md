@@ -37,6 +37,8 @@ server.listen(8888, err => {
 })
 ```
 
+ ![image](https://github.com/liangfengbo/nodejs/blob/master/nodejs-api/http/create-http.png)
+
 #### 让http做更多的事情，比如处理get，post，delete方法：
 
 ```js
@@ -211,6 +213,7 @@ function add(req, res) {
 }
 ```
 
+ ![image](https://github.com/liangfengbo/nodejs/blob/master/nodejs-api/http/create-http.png)
 
 ##### 当然，上传文件对于nodejs的http也是小菜一碟：
 
@@ -306,3 +309,6 @@ function isFormData(req) {
     return 0 == type.indexOf('multipart/form-data');
 }
 ```
+
+ ![image](https://github.com/liangfengbo/nodejs/blob/master/nodejs-api/http/upload.png)
+  ![image](https://github.com/liangfengbo/nodejs/blob/master/nodejs-api/http/upload2.png)
