@@ -256,8 +256,8 @@ function show(res) {
                     <h1>Todo List</h1>
                     <ul>
                         ${items.map(function (item) {
-        return `<li>${item}</li>`
-    })}
+                            return `<li>${item}</li>`
+                        })}
                     </ul>
                     <form action="/" method="POST" enctype="multipart/form-data">
                         <p><input type="text" name="name" /></p>
