@@ -213,7 +213,7 @@ function add(req, res) {
 }
 ```
 
- ![image](https://github.com/liangfengbo/nodejs/blob/master/nodejs-api/http/create-http.png)
+ ![image](https://github.com/liangfengbo/nodejs/blob/master/nodejs-api/http/web-http.png)
 
 ##### 当然，上传文件对于nodejs的http也是小菜一碟：
 
