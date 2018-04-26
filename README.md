@@ -9,6 +9,7 @@
  - [path(路径)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/path)
  
 二、Nodejs编程基础
+ - [http(服务器)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/http)
 
 三、构建Node Web程序
 
