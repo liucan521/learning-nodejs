@@ -12,7 +12,8 @@
 二、Nodejs编程基础
  - [http(服务器)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/http)
 
-三、构建Node Web程序
+三、学习数据库MySQL
+ - [学习数据库MySQL](https://github.com/liangfengbo/frontend/issues/20)
 
 四、存储Nodejs程序中的数据
 
