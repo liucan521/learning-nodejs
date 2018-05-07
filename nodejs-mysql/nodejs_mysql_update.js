@@ -1,5 +1,7 @@
+// 导入mysql
 const mysql = require('mysql');
 
+// 连接mysql
 const connection = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
@@ -10,9 +12,12 @@ const connection = mysql.createConnection({
 
 connection.connect();
 
-let sql = "update article set title= '今晚学习' where id like 10";
+// 更新语句
+let modSql = "update article set title = ?, author = ? where id like ?";
+let modSqlParams = ['今晚学习nodejs', '一波万波', 12];
 
-connection.query(sql, (err, data) => {
+// 执行更新语句
+connection.query(modSql, modSqlParams, (err, data) => {
     if (err) {
         throw err;
     }
