@@ -14,6 +14,8 @@
 
 三、学习数据库MySQL
  - [学习数据库MySQL](https://github.com/liangfengbo/frontend/issues/20)
+ 
+ - [Nodejs操作MySQL-增删改查](https://github.com/liangfengbo/nodejs/tree/master/nodejs-mysql)
 
 四、存储Nodejs程序中的数据
 
