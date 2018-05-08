@@ -12,24 +12,19 @@
 二、Nodejs编程基础
  - [http(服务器)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/http)
 
-三、学习数据库MySQL
+三、存储Nodejs程序中的数据
  - [学习数据库MySQL](https://github.com/liangfengbo/frontend/issues/20)
  
  - [Nodejs操作MySQL-增删改查](https://github.com/liangfengbo/nodejs/tree/master/nodejs-mysql)
 
-四、存储Nodejs程序中的数据
 
-五、Connect
+四、Connect
 
-六、Connect自带的中间件
+五、Express
 
-七、Express
+六、Nodejs爬虫
 
-八、Express进阶
-
-九、Nodejs测试
-
-十、Nodejs爬虫
+七、Nodejs实战
 
 #### 学习方式：
 
