@@ -19,16 +19,15 @@
  - [ Nodejs操作MySQL - 增删改查 (Nodejs Operation MySQL - Add, Delete, Update, Check) ](https://github.com/liangfengbo/nodejs/tree/master/nodejs-mysql)
 
 
-#### 学习方式(learning method)：
+##### 四、学习方式(learning method)：
 
 - 上传demo，加油注释，自学学习、测试
-- Upload demo, refuel comments, self study, test
 - 全部跟着demo手敲一次，做笔记、理解代码流程与思路
-- All with the demo hand knock once, take notes, understand the code flow and ideas
 - 推荐学习资料：《Nodejs实战》、《深入浅出Nodejs》
+- Upload demo, refuel comments, self study, test
+- All with the demo hand knock once, take notes, understand the code flow and ideas
 - Recommended learning materials：《Nodejs in action》、《深入浅出Nodejs》
 
 
 #### 进度(schedule)：
- - 更新中..
- - updating..
+ - 更新中updating..
