@@ -31,13 +31,13 @@
         loading: false,
         ruleValidate: {
           title: [
-            {required: true, message: 'The title cannot be empty', trigger: 'blur'}
+            {required: true, message: '标题不能为空！', trigger: 'blur'}
           ],
           author: [
-            {required: true, message: 'author cannot be empty', trigger: 'blur'},
+            {required: true, message: '作者不能为空！', trigger: 'blur'},
           ],
           content: [
-            {required: true, message: 'content select the city', trigger: 'change'}
+            {required: true, message: '内容不能为空！', trigger: 'blur'}
           ]
         },
       }
@@ -50,26 +50,25 @@
        */
       insertArticle(name) {
         this.$refs[name].validate((valid) => {
+
           if (valid) {
             this.loading = true;
             article.insert(this.formItem).then(ret => {
-              this.tips('发布成功', name);
-              this.$Message.error('发布成功!');
+
+              this.$Message.success('发布成功!');
+              this.loading = false;
+              this.$refs[name].resetFields();
             }).catch(err => {
+
               this.$Message.error('发布失败!');
-              this.tips('发布失败', name);
+              this.loading = false;
+              this.$refs[name].resetFields();
             })
           } else {
-            this.$Message.error('Fail!');
+            this.$Message.error('表单验证错误!');
           }
         })
       },
-
-      tips(msg, name) {
-        this.$refs[name].resetFields();
-        this.loading = false;
-      },
-
     }
   }
 </script>
