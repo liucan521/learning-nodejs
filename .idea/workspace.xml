@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc98f66-edd4-484b-bd03-d23f16ee5e84" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,99 +18,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="todo_list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-api/http/todo_list.js">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2838">
-              <caret line="86" column="48" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="48" />
+            <state relative-caret-position="265">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createServer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-api/http/createServer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fetch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/api/fetch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/main.js">
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/sql/db.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#140#161#0" expanded="true" />
-              </folding>
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/util/config.js">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/module/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="241">
+              <caret line="48" column="16" lean-forward="true" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-mysql/README.md">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5544">
-              <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
+            <state relative-caret-position="165">
+              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="20" lean-forward="true" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/module/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/api/article.js">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/module/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="231">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1353">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="231">
+              <caret line="7" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -121,6 +110,7 @@
     <findStrings>
       <find>dirname</find>
       <find>Util</find>
+      <find>user.user_name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,6 +159,10 @@
         <option value="$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js" />
         <option value="$PROJECT_DIR$/nodejs-mysql/README.md" />
         <option value="$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue" />
+        <option value="$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/module/order.js" />
+        <option value="$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/routes/users.js" />
+        <option value="$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/module/user.js" />
+        <option value="$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/README.md" />
       </list>
     </option>
   </component>
@@ -180,14 +174,14 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/nodejs-api/http/node_modules" />
+    <handled-path value="$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/node_modules" />
     <handled-path value="$PROJECT_DIR$/nodejs-express-mysql/server/node_modules" />
     <handled-path value="$PROJECT_DIR$/nodejs-express-mysql/web/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="110" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -197,52 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
-              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
-              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
-              <item name="web" type="cbb8eebc:String" user="web" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
-              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
-              <item name="web" type="cbb8eebc:String" user="web" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
-              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
-              <item name="web" type="cbb8eebc:String" user="web" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
-              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
-              <item name="web" type="cbb8eebc:String" user="web" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-              <item name="article" type="cbb8eebc:String" user="article" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +202,41 @@
               <item name="nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="nodejs-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learning-nodejs" type="cbb8eebc:String" user="learning-nodejs" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learning-nodejs" type="cbb8eebc:String" user="learning-nodejs" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learning-nodejs" type="cbb8eebc:String" user="learning-nodejs" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+              <item name="sequelize-server" type="cbb8eebc:String" user="sequelize-server" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learning-nodejs" type="cbb8eebc:String" user="learning-nodejs" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+              <item name="server" type="cbb8eebc:String" user="server" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learning-nodejs" type="cbb8eebc:String" user="learning-nodejs" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+              <item name="server" type="cbb8eebc:String" user="server" />
+              <item name="routes" type="cbb8eebc:String" user="routes" />
             </path>
           </expand>
           <select />
@@ -313,27 +296,30 @@
       <workItem from="1526524841179" duration="41000" />
       <workItem from="1526524885787" duration="10412000" />
       <workItem from="1526546236792" duration="148000" />
+      <workItem from="1526564205815" duration="222000" />
+      <workItem from="1526564431833" duration="17000" />
+      <workItem from="1526564676922" duration="2623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27663000" />
+    <option name="totallyTimeSpent" value="30586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17054264" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41907513" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32053176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -354,69 +340,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/api/fetch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/util/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-mysql/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5544">
-          <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/api/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="40" column="11" selection-start-line="32" selection-start-column="9" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
@@ -511,15 +434,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="495">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="24" selection-end-line="9" />
+        <state relative-caret-position="231">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -560,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
+        <state relative-caret-position="5214">
           <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
         </state>
       </provider>
@@ -595,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/module/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="231">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -639,10 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,17 +579,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/sql/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/module/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="48" column="16" lean-forward="true" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/module/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="20" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/sequelize-server/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
