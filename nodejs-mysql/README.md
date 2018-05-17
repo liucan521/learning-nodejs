@@ -1,159 +1,173 @@
+#### 先安装npm模块项目
 
-创建一个数据库
-
-```
-create database blog;
-```
-
-切换blog数据库
-
-```
-use blog;
+```js
+npm init
 ```
 
-创建一个文章表
+#### 安装mysql
 
-```
-create table if not exists article( id int not null auto_increment, title varchar(100) not null, content varchar(2000) not null, author varchar(40) not null, date date, primary key (id) )engine=InnoDB default charset=utf8;
-```
-
-域名是：127.0.0.1:3000，比如查询文章列表接口： http://127.0.0.1:3000/api/article
-
-记得要启动服务：npm start
-
-
-#### 增加文文章接口
-
-```
-api/article
+```js
+npm install mysql --save
 ```
 
-##### 请求方式
+#### Nodejs 连接msyql
 
+```js
+// 导入mysql
+const mysql = require('mysql');
+
+// 连接mysql
+const connection = mysql.createConnection({
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'password',
+    port: '3306',
+    database: 'test'
+});
+
+connection.connect();
+
+// 结束连接
+connection.end();
 ```
-post
-```
-
-##### 请求参数
 
 
-参数名 | 需求 | 说明
----|--- |---
-title | 必填 | 文章标题
-author | 必填 | 文章作者
-content | 必填 | 文章内容
+#### 增
 
-##### 返回数据
+```js
+// 引入mysql
+const mysql = require('mysql');
 
-```
-{
-    "code": "200",
-    "data": {
-        "message": "添加成功！"
+// 连接myql
+const connection = mysql.createConnection({
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'password',
+    port: '3306',
+    database: 'test',
+});
+
+connection.connect();
+
+// 插入语句
+let addSql = "insert into article (title, author, date) values (?, ?, now())";
+let addSqlParams = ['Today is noce', 'Bob'];
+
+// 执行插入语句
+connection.query(addSql, addSqlParams, (err, result) => {
+    if (err) {
+        throw err;
     }
-}
-```
 
+    // 插入成功输出
+    console.log('插入成功');
+    console.log(result);
+});
 
-#### 查询文章列表接口
-
-```
-api/article
-```
-
-##### 请求方式
+// 断开连接msyql
+connection.end();
 
 ```
-get
-```
-
-##### 请求参数
 
 
-参数名 | 需求 | 说明
----|--- |---
-id | 非必填 | 文章ID
-title | 非必填 | 文章标题
-author | 非必填 | 文章作者
+#### 删
 
-##### 返回结果
+```js
+// 引入mysql
+const mysql = require('mysql');
 
-```
-{
-    "code": "200",
-    "data": {
-        "data": [
-            {
-                "id": 7,
-                "title": "广州人很喜欢喝早茶？",
-                "content": "广州人很喜欢喝早茶是一个优良传统啦",
-                "author": "梁凤波",
-                "date": "2018-05-16T16:00:00.000Z"
-            }
-        ]
+// 连接mysql
+const connection = mysql.createConnection({
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'password',
+    port: '3306',
+    database: 'test'
+});
+
+connection.connect();
+
+// 删除语句
+let sql = "delete from article where id = 10";
+
+// 执行删除语句
+connection.query(sql, (err, data) => {
+    if (err) {
+        throw err;
     }
-}
+
+    // 执行成功
+    console.log('delete success!');
+    console.log(data);
+});
+
+// 断开连接msyql
+connection.end();
 ```
 
+#### 改
 
-#### 更新文章接口
+```js
+// 导入mysql
+const mysql = require('mysql');
 
-```
-api/article
-```
+// 连接mysql
+const connection = mysql.createConnection({
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'password',
+    port: '3306',
+    database: 'test'
+});
 
-##### 请求方式
+connection.connect();
 
-```
-put
-```
+// 更新语句
+let modSql = "update article set title = ?, author = ? where id like ?";
+let modSqlParams = ['今晚学习nodejs', '一波万波', 12];
 
-##### 请求参数
-
-
-参数名 | 需求 | 说明
----|--- |---
-id | 必填 | 文章ID
-title | 非必填 | 文章标题
-author | 非必填 | 文章作者
-
-#### 返回结果
-
-```
-{
-    "code": "200",
-    "data": {
-        "message": "更新成功！"
+// 执行更新语句
+connection.query(modSql, modSqlParams, (err, data) => {
+    if (err) {
+        throw err;
     }
-}
+    console.log('upload success!');
+    console.log(data)
+});
+
+connection.end();
 ```
 
-#### 删除文章接口
+#### 查
 
-```
-api/article
-```
+```js
+// 导入mysql
+const mysql = require('mysql');
 
-##### 请求方式
+// 连接mysql
+const connection = mysql.createConnection({
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'password',
+    port: '3306',
+    database: 'test',
+});
 
-```
-delete
-```
+connection.connect();
 
-##### 请求参数
+// 查询语句
+let sql = 'SELECT * FROM article';
 
-
-参数名 | 需求 | 说明
----|--- |---
-id | 必填 | 文章ID
-
-##### 返回结果
-
-```
-{
-    "code": "200",
-    "data": {
-        "message": "删除成功！"
+// 执行查询语句
+connection.query(sql, (err, data) => {
+    if (err) {
+        console.log('[SELECT ERROR] - ', err.message);
+        return;
     }
-}
+
+    // 查询成功
+    console.log(data);
+});
+connection.end();
+
 ```
