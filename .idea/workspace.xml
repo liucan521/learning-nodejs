@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc98f66-edd4-484b-bd03-d23f16ee5e84" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/nodejs-mysql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-mysql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,6 +46,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#140#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/util/config.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodejs-mysql/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="165" column="5" lean-forward="true" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+            <state relative-caret-position="337">
+              <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -73,38 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="40" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-534">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="390">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/module/article.js">
+      <file leaf-file-name="add.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-567">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="376">
+              <caret line="40" column="11" selection-start-line="32" selection-start-column="9" selection-end-line="40" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -160,9 +164,9 @@
         <option value="$PROJECT_DIR$/nodejs-express-mysql/web/src/api/article.js" />
         <option value="$PROJECT_DIR$/nodejs-express-mysql/web/src/util/config.js" />
         <option value="$PROJECT_DIR$/nodejs-express-mysql/web/src/App.vue" />
-        <option value="$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue" />
         <option value="$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js" />
         <option value="$PROJECT_DIR$/nodejs-mysql/README.md" />
+        <option value="$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue" />
       </list>
     </option>
   </component>
@@ -202,7 +206,37 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
-              <item name="nodejs-mysql" type="cbb8eebc:String" user="nodejs-mysql" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="views" type="cbb8eebc:String" user="views" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="nodejs" type="cbb8eebc:String" user="nodejs" />
+              <item name="nodejs-express-mysql" type="cbb8eebc:String" user="nodejs-express-mysql" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="views" type="cbb8eebc:String" user="views" />
+              <item name="article" type="cbb8eebc:String" user="article" />
             </path>
           </expand>
           <select />
@@ -276,12 +310,12 @@
       <workItem from="1526005451538" duration="2000" />
       <workItem from="1526524783219" duration="52000" />
       <workItem from="1526524841179" duration="41000" />
-      <workItem from="1526524885787" duration="10224000" />
+      <workItem from="1526524885787" duration="10412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27327000" />
+    <option name="totallyTimeSpent" value="27515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="110" y="51" width="1440" height="812" extended-state="0" />
@@ -498,17 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/detail.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -522,44 +545,6 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/api/fetch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/util/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/api/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -591,17 +576,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js">
+    <entry file="file://$PROJECT_DIR$/nodejs-mysql/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-534">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="337">
+          <caret line="168" column="18" lean-forward="true" selection-start-line="168" selection-start-column="18" selection-end-line="168" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs-mysql/README.md">
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/util/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="165" column="5" lean-forward="true" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+        <state relative-caret-position="297">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/api/fetch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/api/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/server/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodejs-express-mysql/web/src/views/article/add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="40" column="11" selection-start-line="32" selection-start-column="9" selection-end-line="40" selection-end-column="11" />
         </state>
       </provider>
     </entry>

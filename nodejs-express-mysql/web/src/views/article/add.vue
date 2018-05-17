@@ -30,15 +30,15 @@
         },
         loading: false,
         ruleValidate: {
-          // title: [
-          //   {required: true, message: 'The title cannot be empty', trigger: 'blur'}
-          // ],
-          // author: [
-          //   {required: true, message: 'author cannot be empty', trigger: 'blur'},
-          // ],
-          // content: [
-          //   {required: true, message: 'content select the city', trigger: 'change'}
-          // ]
+          title: [
+            {required: true, message: 'The title cannot be empty', trigger: 'blur'}
+          ],
+          author: [
+            {required: true, message: 'author cannot be empty', trigger: 'blur'},
+          ],
+          content: [
+            {required: true, message: 'content select the city', trigger: 'change'}
+          ]
         },
       }
     },
@@ -54,7 +54,9 @@
             this.loading = true;
             article.insert(this.formItem).then(ret => {
               this.tips('发布成功', name);
+              this.$Message.error('发布成功!');
             }).catch(err => {
+              this.$Message.error('发布失败!');
               this.tips('发布失败', name);
             })
           } else {
@@ -64,7 +66,6 @@
       },
 
       tips(msg, name) {
-        this.$Message.success(msg);
         this.$refs[name].resetFields();
         this.loading = false;
       },
