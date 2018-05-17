@@ -1,35 +1,42 @@
-#### Nodejs
+#### We learn Nodejs together
 
-- 我学习nodejs的路线，大家有兴趣的话可以和我一起学习。
+- 我从0开始学习Nodejs路线，大家有兴趣的话可以和我一起学习。
+
+- 技术栈为Nodejs，Express，数据库选择MySQL，前端使用vue。
+
+- 学习完本学习计划，能独立使用Nodejs + Express + Mysql + Vue写前后端分离项目。
+
 - I study the route of nodejs. If you are interested, you can study with me.
 
-#### 学习路线分为：
+- Technology stack for Nodejs, Express, database select MySQL.
 
-一、Nodejs核心API (Nodejs core API)
- - [Buffer(缓冲)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/buffer)
- - [fs(文件系统)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/fs)
- - [path(路径)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/path)
+- After completing this study plan, you can use Nodejs + Express + Mysql + Vue to write separate front-end and back-end projects.
+
+#### 学习流程
+
+ - 第一部分：Nodejs核心API (Nodejs core API)
+     - [Buffer(缓冲) 点击进入学习](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/buffer)
+     
+     - [fs(文件系统) 点击进入学习](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/fs)
+     
+     - [path(路径) 点击进入学习](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/path)
+    
+
+- 第二部分：Nodejs编程基础 (Nodejs programming basics)
+
+    - [学习HTTP(服务器) 点击进入学习](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/http)
+    
+
+- 第三部分：MySQL数据库
+    - [学习数据库MySQL - 增删改查 (Learning Database MySQL -  - Add, Delete, Update, Check) 点击进入学习](https://github.com/liangfengbo/frontend/issues/20)
  
-二、Nodejs编程基础 (Nodejs programming basics)
- - [HTTP(服务器)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/http)
+    - [ Nodejs操作MySQL - 增删改查 (Nodejs Operation MySQL - Add, Delete, Update, Check) 点击进入学习](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-mysql)
+    
+- 第四部分：学习Express
+    - [使用Nodejs+Express+MySQL做接口 (Use Nodejs+express+mysql to make a fuss about the interface) 点击进入学习](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-express-mysql/server)
+    
 
-三、存储Nodejs程序中的数据(Store data in Nodejs program)
- - [学习数据库MySQL(Learning Database MySQL)](https://github.com/liangfengbo/frontend/issues/20)
+- 更新中updating..
+
  
- - [ Nodejs操作MySQL - 增删改查 (Nodejs Operation MySQL - Add, Delete, Update, Check) ](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-mysql)
-
-四、学习express
- - [使用Nodejs+express+mysql做文章增删改查接口 (Use Nodejs+express+mysql to make a fuss about the interface)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-express-mysql/server)
-
-学习方式(learning method)：
-
-- 上传demo，加油注释，自学学习、测试
-- 全部跟着demo手敲一次，做笔记、理解代码流程与思路
-- 推荐学习资料：《Nodejs实战》、《深入浅出Nodejs》
-- Upload demo, refuel comments, self study, test
-- All with the demo hand knock once, take notes, understand the code flow and ideas
-- Recommended learning materials：《Nodejs in action》、《深入浅出Nodejs》
-
-
-进度(schedule)：
- - 更新中updating..
+    
