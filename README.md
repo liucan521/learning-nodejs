@@ -1,4 +1,4 @@
-#### We learn Nodejs together
+### We learn Nodejs together
 
 - 我从0开始学习Nodejs路线，大家有兴趣的话可以和我一起学习。
 
@@ -12,7 +12,7 @@
 
 - After completing this study plan, you can use Nodejs + Express + Mysql + Vue to write separate front-end and back-end projects.
 
-#### 学习流程
+### 学习流程
 
  - 第一部分：Nodejs核心API (Nodejs core API)
      - [Buffer(缓冲) 点击进入学习](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/buffer)
