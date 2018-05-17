@@ -18,8 +18,10 @@
  
  - [ Nodejs操作MySQL - 增删改查 (Nodejs Operation MySQL - Add, Delete, Update, Check) ](https://github.com/liangfengbo/nodejs/tree/master/nodejs-mysql)
 
+四、学习express
+ - [使用Nodejs+express+mysql做文章增删改查接口 (Use Nodejs+express+mysql to make a fuss about the interface)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-express-mysql/server)
 
-四、学习方式(learning method)：
+学习方式(learning method)：
 
 - 上传demo，加油注释，自学学习、测试
 - 全部跟着demo手敲一次，做笔记、理解代码流程与思路
