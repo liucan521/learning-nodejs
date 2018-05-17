@@ -2,25 +2,52 @@ const express = require('express');
 const router = express.Router();
 const article = require('../module/article');
 
+//allow custom header and CORS
+router.all('*', function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
+    res.header("X-Powered-By", ' 3.2.1');
+    res.header("Content-Type", "application/json;charset=utf-8");
+    next();
+});
+
 router.get('/', function (req, res, next) {
     res.send('Please start to query your api！');
 });
 
+function returnCodeInfo(code, message) {
+    return {
+        code: code,
+        data: {
+            message: message
+        }
+    }
+}
+
 // post请求增加文章接口
 router.post('/article', function (req, res, next) {
-    let _article = req.query;
+    let _article = req.body;
     let title = _article.title;
     let author = _article.author;
     let content = _article.content;
+
+    if (!title) {
+        res.status(412).send({error: '标题不能为空!'});
+    } else if (!author) {
+        res.status(412).send({error: '作者不能为空!'});
+    } else if (!content) {
+        res.status(412).send({error: '内容不能为空!'});
+    }
 
     let sql = `insert into article (title, author, content, date) values ("${title}", "${author}", "${content}", now())`;
 
     console.log(sql);
     article(sql, 'post').then(function (data) {
-        console.log(data);
         res.json(data);
         res.end();
     }).catch(function (err) {
+
     })
 });
 
@@ -57,6 +84,11 @@ router.get('/article', function (req, res, next) {
 router.delete('/article', function (req, res, next) {
     let _article = req.query;
     let id = _article.id;
+
+    if (!id) {
+        res.status(412).send({error: 'ID不能为空!'});
+    }
+
     let sql = `delete from article where id = ${id}`;
 
     console.log(sql);
@@ -68,7 +100,7 @@ router.delete('/article', function (req, res, next) {
     })
 });
 
-// delete请求删除文章接口
+// put修改文章接口
 router.put('/article', function (req, res, next) {
     let _article = req.query;
     let id = _article.id;
@@ -76,6 +108,10 @@ router.put('/article', function (req, res, next) {
     let author = _article.author;
     let content = _article.author;
     let sql = '';
+
+    if (!id) {
+        res.status(412).send({error: 'ID不能为空!'});
+    }
 
     if (title && author && content) {
         sql = `update article set title = "${title}", author = "${author}", content = "${content}" where id =  ${id}`;
