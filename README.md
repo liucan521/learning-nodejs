@@ -23,7 +23,7 @@
     
 
 - 第三部分：MySQL数据库
-    - [学习数据库MySQL - 增删改查 (Learning Database MySQL -  - Add, Delete, Update, Check) 点击进入学习 »](https://github.com/liangfengbo/frontend/issues/20)
+    - [学习数据库MySQL - 增删改查 (Learning Database MySQL - Add, Delete, Update, Check) 点击进入学习 »](https://github.com/liangfengbo/frontend/issues/20)
  
     - [ Nodejs操作MySQL - 增删改查 (Nodejs Operation MySQL - Add, Delete, Update, Check) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-mysql)
     
@@ -33,5 +33,5 @@
 
 - 更新中updating..
 
-    - 有什么想法和问题请在[issues(点击开始留言)](https://github.com/liangfengbo/learning-nodejs/issues)留言，或Gmail给我：LiangFengBob@gmail.com. Thanks.
+    - 有什么想法和问题请在[issues(点击开始留言)](https://github.com/liangfengbo/learning-nodejs/issues/new)留言，或Gmail给我：LiangFengBob@gmail.com. Thanks.
     
