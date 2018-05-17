@@ -6,20 +6,20 @@
 #### 学习路线分为：
 
 一、Nodejs核心API (Nodejs core API)
- - [Buffer(缓冲)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/buffer)
- - [fs(文件系统)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/fs)
- - [path(路径)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/path)
+ - [Buffer(缓冲)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/buffer)
+ - [fs(文件系统)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/fs)
+ - [path(路径)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/path)
  
 二、Nodejs编程基础 (Nodejs programming basics)
- - [HTTP(服务器)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-api/http)
+ - [HTTP(服务器)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/http)
 
 三、存储Nodejs程序中的数据(Store data in Nodejs program)
  - [学习数据库MySQL(Learning Database MySQL)](https://github.com/liangfengbo/frontend/issues/20)
  
- - [ Nodejs操作MySQL - 增删改查 (Nodejs Operation MySQL - Add, Delete, Update, Check) ](https://github.com/liangfengbo/nodejs/tree/master/nodejs-mysql)
+ - [ Nodejs操作MySQL - 增删改查 (Nodejs Operation MySQL - Add, Delete, Update, Check) ](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-mysql)
 
 四、学习express
- - [使用Nodejs+express+mysql做文章增删改查接口 (Use Nodejs+express+mysql to make a fuss about the interface)](https://github.com/liangfengbo/nodejs/tree/master/nodejs-express-mysql/server)
+ - [使用Nodejs+express+mysql做文章增删改查接口 (Use Nodejs+express+mysql to make a fuss about the interface)](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-express-mysql/server)
 
 学习方式(learning method)：
 
