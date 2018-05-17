@@ -1,16 +1,11 @@
 ### We learn Nodejs together
 
-- 我从0开始学习Nodejs路线，大家有兴趣的话可以和我一起学习。
+- 我从0开始学习Nodejs路线，大家有兴趣的话可以和我一起学习。I study the route of nodejs. If you are interested, you can study with me.
 
-- 技术栈为Nodejs，Express，数据库选择MySQL，前端使用vue。
+- 技术栈为Nodejs，Express，数据库选择MySQL，前端使用vue。Technology stack for Nodejs, Express, database select MySQL.
 
-- 学习完本学习计划，能独立使用Nodejs + Express + Mysql + Vue写前后端分离项目。
+- 学习完本学习计划，能独立使用Nodejs + Express + Mysql + Vue写前后端分离项目。After completing this study plan, you can use Nodejs + Express + Mysql + Vue to write separate front-end and back-end projects.
 
-- I study the route of nodejs. If you are interested, you can study with me.
-
-- Technology stack for Nodejs, Express, database select MySQL.
-
-- After completing this study plan, you can use Nodejs + Express + Mysql + Vue to write separate front-end and back-end projects.
 
 ### 学习流程
 
