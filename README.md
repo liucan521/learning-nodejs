@@ -33,5 +33,5 @@
 
 - 更新中updating..
 
-    - 有什么想法和问题请在issues留言，或Gmail给我：LiangFengBob@gmail.com. Thanks.
+    - 有什么想法和问题请在[issues(点击开始留言)](https://github.com/liangfengbo/learning-nodejs/issues)留言，或Gmail给我：LiangFengBob@gmail.com. Thanks.
     
