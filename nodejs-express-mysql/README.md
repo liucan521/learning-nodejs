@@ -17,7 +17,9 @@ use blog;
 create table if not exists article( id int not null auto_increment, title varchar(100) not null, content varchar(2000) not null, author varchar(40) not null, date date, primary key (id) )engine=InnoDB default charset=utf8;
 ```
 
-域名是：127.0.0.1:300，比如查询文章列表接口： http://127.0.0.1:3000/api/article
+域名是：127.0.0.1:3000，比如查询文章列表接口： http://127.0.0.1:3000/api/article
+
+记得要启动服务：npm start
 
 
 #### 增加文文章接口
