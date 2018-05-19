@@ -30,9 +30,10 @@
 - 第四部分：学习Express
     - [使用Nodejs+Express+MySQL做接口 (Use Nodejs+express+mysql to make a fuss about the interface) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-express-mysql/server)
     
-    - [使用nodejs+sequelize操作mysql数据库 (Use nodejs+sequelize operation mysql database) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-express-mysql/sequelize-server)
-    
-    
+    - [使用nodejs+Express+sequelize操作mysql数据库 (Use nodejs+sequelize operation mysql database) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-express-mysql/sequelize-server)
+
+    - [使用nodejs+koa2+sequelize操作mysql数据库 (Use nodejs+sequelize operation mysql database) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-koa2-mysql)
+
 - 更新中updating..
 
     - 有什么想法和问题请在[issues(点击开始留言)](https://github.com/liangfengbo/learning-nodejs/issues/new)留言，或Gmail给我：LiangFengBob@gmail.com. Thanks.
