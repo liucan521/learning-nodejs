@@ -1,40 +1,31 @@
 ### We learn Nodejs together
 
-- 我从0开始学习Nodejs路线，大家有兴趣的话可以和我一起学习。I study the route of nodejs. If you are interested, you can study with me.
-
-- 技术栈为Nodejs，Express，数据库选择MySQL，前端使用vue。Technology stack for Nodejs, Express, database select MySQL.
-
-- 学习完本学习计划，能独立使用Nodejs + Express + Mysql + Vue写前后端分离项目。After completing this study plan, you can use Nodejs + Express + Mysql + Vue to write separate front-end and back-end projects.
-
+- 我从0开始学习Nodejs路线，大家有兴趣的话可以和我一起学习。喜欢的话请点star✨✨Thanks.
+- 技术栈为Nodejs，Express，Koa2，数据库选择MySQL，前端使用vue。
 
 ### 学习流程
 
- - 第一部分：Nodejs核心API (Nodejs core API)
-     - [Buffer(缓冲) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/buffer)
+ - 第一部分：学习Nodejs核心API (Nodejs core API)
+     - [Buffer(缓冲) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/api/buffer)
      
-     - [fs(文件系统) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/fs)
+     - [fs(文件系统) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/api/fs)
      
-     - [path(路径) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/path)
+     - [path(路径) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/api/path)
     
 
-- 第二部分：Nodejs编程基础 (Nodejs programming basics)
-
-    - [学习HTTP(服务器) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-api/http)
+- 第二部分：学习Nodejs编程基础 (Nodejs programming basics)
+    - [学习HTTP(服务器) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/api/http)
     
 
-- 第三部分：MySQL数据库
-    - [学习数据库MySQL - 增删改查 (Learning Database MySQL - Add, Delete, Update, Check) 点击进入学习 »](https://github.com/liangfengbo/frontend/issues/20)
- 
-    - [ Nodejs操作MySQL - 增删改查 (Nodejs Operation MySQL - Add, Delete, Update, Check) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-mysql)
-    
+- 第三部分：学习MySQL数据库
+    - [学习数据库MySQL&&Nodejs操作MySQL 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/mysql)
+
 - 第四部分：学习Express
-    - [使用Nodejs+Express+MySQL做接口 (Use Nodejs+express+mysql to make a fuss about the interface) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-express-mysql/server)
+    - [使用Nodejs+Express+MySQL做接口 (Use Nodejs+express+mysql to make a fuss about the interface) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/express/server)
     
-    - [使用nodejs+Express+sequelize操作mysql数据库 (Use nodejs+sequelize operation mysql database) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-express-mysql/sequelize-server)
+    - [使用nodejs+Express+sequelize操作mysql数据库 (Use nodejs+sequelize operation mysql database) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/express/sequelize-server)
 
-    - [使用nodejs+koa2+sequelize操作mysql数据库 (Use nodejs+sequelize operation mysql database) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/nodejs-koa2-mysql)
+    - [使用nodejs+koa2+sequelize操作mysql数据库 (Use nodejs+sequelize operation mysql database) 点击进入学习 »](https://github.com/liangfengbo/learning-nodejs/tree/master/koa2)
 
-- 更新中updating..
-
-    - 有什么想法和问题请在[issues(点击开始留言)](https://github.com/liangfengbo/learning-nodejs/issues/new)留言，或Gmail给我：LiangFengBob@gmail.com. Thanks.
+    - 有什么想法和问题请在[issues(点击开始留言)](https://github.com/liangfengbo/learning-nodejs/issues/new)留言，或Gmail给我：itbo@163.com. Thanks.
     
